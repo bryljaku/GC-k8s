@@ -12,7 +12,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <Link to="/">I was deployed on GC</Link>
-          <Link to="/otherpage">Other Page</Link>
+          <Link to="/otherpage">Strong use of Kubernetes</Link>
         </header>
           <div>
             <Route exact path="/" component={Fib}/>
